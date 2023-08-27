@@ -118,5 +118,7 @@ fn main() {
 
             _ => {}
         }
+
+        conn.flush().unwrap();
     }
 }
